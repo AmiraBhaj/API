@@ -2,7 +2,6 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-
 const Navigation = () => {
   return (
     <div>
@@ -14,7 +13,7 @@ const Navigation = () => {
               Home
             </Nav.Link>
             <Nav.Link as={Link} to={"/UserList"}>
-              Movies
+              Users
             </Nav.Link>
             <Nav.Link href="Login">Login</Nav.Link>
           </Nav>
